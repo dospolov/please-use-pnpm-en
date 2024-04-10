@@ -1,9 +1,11 @@
 {
-  "name": "please-use-pnpm",
+  "name": "please-use-pnpm-en",
   "version": "1.1.0",
   "description": "Force using pnpm in the project",
   "main": "bin.js",
-  "bin": "bin.js",
+  "bin": {
+    "please-use-pnpm-en": "bin.js"
+  },
   "files": [
     "bin.js"
   ],
@@ -13,7 +15,10 @@
   ],
   "author": "Marat Dospolov <marat.dospolov@gmail.com>",
   "license": "MIT",
-  "repository": "dospolov/please-use-pnpm-en",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dospolov/please-use-pnpm-en.git"
+  },
   "homepage": "https://github.com/dospolov/please-use-pnpm-en",
   "bugs": "https://github.com/dospolov/please-use-pnpm-en/issues"
 }
