@@ -1,7 +1,7 @@
 {
   "name": "please-use-pnpm",
   "version": "1.1.0",
-  "description": "强制在项目中使用 pnpm 作为包管理工具",
+  "description": "Force using pnpm in the project",
   "main": "bin.js",
   "bin": "bin.js",
   "files": [
@@ -11,9 +11,9 @@
     "npm",
     "pnpm"
   ],
-  "author": "ChasLui <chaslui@outlook.com>",
+  "author": "Marat Dospolov <marat.dospolov@gmail.com>",
   "license": "MIT",
-  "repository": "chaslui/please-use-pnpm",
-  "homepage": "https://github.com/chaslui/please-use-pnpm",
-  "bugs": "https://github.com/chaslui/please-use-pnpm/issues"
+  "repository": "dospolov/please-use-pnpm-en",
+  "homepage": "https://github.com/dospolov/please-use-pnpm-en",
+  "bugs": "https://github.com/dospolov/please-use-pnpm-en/issues"
 }

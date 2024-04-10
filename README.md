@@ -1,11 +1,12 @@
 # please-use-pnpm
 
-> 在项目中强制使用 pnpm 作为包管理工具 </br>
-> 本仓库严重抄袭 [justjavac/please-use-yarn](https://github.com/justjavac/please-use-yarn)
+> Force using pnpm in the project
 
-## 使用
+When using `npm i` or `pnpm` to install the package, an error will be thrown and the installation will stop.
 
-在 `package.json` 文件的 `scripts` 中添加 `preinstall`:
+## Usage
+
+Update `package.json`:
 
 ```bash
 {
@@ -15,13 +16,9 @@
 }
 ```
 
-## 效果
-
-当使用 `npm i` 或者 `pnpm` 安装包时，会报错并停止安装。
-
 ![](./screen.png)
 
-**备注**: 如果不想看到 `npx: 1 安装成功，用时 xxxx 秒`，可以使用 `--quiet` 选项(或者 `-q`):
+**Note**: If you don’t want to see `npx: 1 installed successfully, took xxxx seconds`, you can use the `--quiet` option (or `-q`):
 
 ```json
 {
